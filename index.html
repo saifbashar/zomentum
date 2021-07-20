@@ -12,6 +12,9 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" href="./styles/style.css" />
 
+    <!-- animation on scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- Font awesome kits -->
     <script
       src="https://kit.fontawesome.com/b1673043ec.js"
@@ -49,7 +52,12 @@
         </div>
       </nav>
       <section class="registers">
-        <div class="register">
+        <div
+          class="register"
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
           <div class="register-text">
             <h1>Find the right partners to</h1>
             <h1>fuel your business growth</h1>
@@ -73,7 +81,7 @@
       <section class="list-sell-grow">
         <h1 style="text-align: center">List. Sell. Grow</h1>
         <div class="container-list">
-          <div class="all-in-one">
+          <div class="all-in-one" data-aos="zoom-in" data-aos-delay="100">
             <div class="all-img">
               <img
                 src="./images/List Sell and grow/all in one platform.png"
@@ -84,7 +92,7 @@
               <p>Be a part of the only All-In-One platform for IT services</p>
             </div>
           </div>
-          <div class="find-customer">
+          <div class="find-customer" data-aos="zoom-in" data-aos-delay="500">
             <div class="find-img">
               <img
                 src="./images/List Sell and grow/find your next customer.png"
@@ -95,7 +103,7 @@
               <p>Be a part of the only All-In-One platform for IT services</p>
             </div>
           </div>
-          <div class="grow">
+          <div class="grow" data-aos="zoom-in" data-aos-delay="1000">
             <div class="grow-img">
               <img
                 src="./images/List Sell and grow/grow your business.png"
@@ -110,18 +118,22 @@
       </section>
       <section class="cards">
         <div class="card">
-          <div class="card-text">
+          <div class="card-text" data-aos="fade-right">
             <h2>Your channel program on steroids</h2>
             <p>
               Tired of finding MSPs that can help you boost your channel sales?
               You’re in luck, because they’re all here.
             </p>
           </div>
-          <div class="card-img"><img src="./images/main1.png" alt="" /></div>
+          <div class="card-img" data-aos="fade-up" data-aos-delay="100">
+            <img src="./images/main1.png" alt="" />
+          </div>
         </div>
         <div class="card">
-          <div class="card-img"><img src="./images/main2.png" alt="" /></div>
-          <div class="card-text">
+          <div class="card-img" data-aos="fade-up" data-aos-delay="100">
+            <img src="./images/main2.png" alt="" />
+          </div>
+          <div class="card-text" data-aos="fade-left">
             <h2>Become the vendor everyone wants to buy from</h2>
             <p>
               Gain brand authority and visibility with the help of the largest
@@ -138,7 +150,7 @@
           </div>
         </div>
         <div class="card">
-          <div class="card-text">
+          <div class="card-text" data-aos="fade-right">
             <h2>It’s like having your best salesman on autopilot</h2>
             <p>
               Share collaterals and documents that are automatically branded.
@@ -153,11 +165,15 @@
               ></a>
             </p>
           </div>
-          <div class="card-img"><img src="./images/main3.png" alt="" /></div>
+          <div class="card-img" data-aos="fade-up" data-aos-delay="100">
+            <img src="./images/main3.png" alt="" />
+          </div>
         </div>
         <div class="card">
-          <div class="card-img"><img src="./images/main4.png" alt="" /></div>
-          <div class="card-text">
+          <div class="card-img" data-aos="fade-up" data-aos-delay="100">
+            <img src="./images/main4.png" alt="" />
+          </div>
+          <div class="card-text" data-aos="fade-left">
             <h2>Track your channel performance</h2>
             <p>
               Monitor the health and revenue of your channel program and
@@ -173,7 +189,7 @@
           </div>
         </div>
         <div class="card">
-          <div class="card-text">
+          <div class="card-text" data-aos="fade-right">
             <h2>
               Get the best version of<br />
               your sales playbook
@@ -191,53 +207,61 @@
               ></a>
             </p>
           </div>
-          <div class="card-img"><img src="./images/main3.png" alt="" /></div>
+          <div class="card-img" data-aos="fade-up" data-aos-delay="100">
+            <img src="./images/main3.png" alt="" />
+          </div>
         </div>
       </section>
-      <footer>
-        <div class="container">
+    </main>
+    <footer>
+      <div class="container">
+        <div>
+          <h3>Product</h3>
           <div>
-            <h3>Product</h3>
-            <div>
-              <p>Feature</p>
-              <p>Pricing</p>
-              <p>Integrations</p>
-              <p>Product</p>
-            </div>
-          </div>
-          <div>
-            <h3>Company</h3>
-            <div>
-              <p>About us</p>
-              <p>Contact us</p>
-              <p>Submit a ticket</p>
-              <p>Privecy and Policy</p>
-              <p>Terms & Condition</p>
-            </div>
-          </div>
-          <div>
-            <h3>Users</h3>
-            <div>
-              <p>Login</p>
-              <p>Get a demo</p>
-              <p>Talk to us</p>
-              <p>Privecy and Privecy</p>
-              <p>Terms & Conditions</p>
-            </div>
-          </div>
-          <div>
-            <h3>Guides</h3>
-            <div>
-              <p>MSP</p>
-              <p>MSP Sales</p>
-            </div>
-          </div>
-          <div>
-            <h3>Contact us</h3>
-            <div><p>Address</p></div>
+            <p>Feature</p>
+            <p>Pricing</p>
+            <p>Integrations</p>
+            <p>Product</p>
           </div>
         </div>
-      </footer>
-    </main>
+        <div>
+          <h3>Company</h3>
+          <div>
+            <p>About us</p>
+            <p>Contact us</p>
+            <p>Submit a ticket</p>
+            <p>Privecy and Policy</p>
+            <p>Terms & Condition</p>
+          </div>
+        </div>
+        <div>
+          <h3>Users</h3>
+          <div>
+            <p>Login</p>
+            <p>Get a demo</p>
+            <p>Talk to us</p>
+            <p>Privecy and Privecy</p>
+            <p>Terms & Conditions</p>
+          </div>
+        </div>
+        <div>
+          <h3>Guides</h3>
+          <div>
+            <p>MSP</p>
+            <p>MSP Sales</p>
+          </div>
+        </div>
+        <div>
+          <h3>Contact us</h3>
+          <div><p>Address</p></div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- animation on scroll script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
