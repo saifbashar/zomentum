@@ -1,4 +1,4 @@
-# zomentum
+# zomentum-landing-page
 
 
 ![image](https://user-images.githubusercontent.com/60818905/126291231-09ec246b-8001-43fd-b386-9cf442870998.png)
